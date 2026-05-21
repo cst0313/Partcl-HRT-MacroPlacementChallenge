@@ -25,8 +25,8 @@ cd macro-place-challenge-2026
 git submodule update --init external/MacroPlacement
 
 # 2. Drop this submission into submissions/hrt_winner/
-git clone https://github.com/cst0313/Partcl-HRT-MacroPlacementChallenge.git /tmp/hrt
-cp -r /tmp/hrt/submissions/hrt_winner submissions/hrt_winner
+git clone https://github.com/cst0313/Partcl-HRT-MacroPlacementChallenge.git ../hrt-submission
+cp -r ../hrt-submission/submissions/hrt_winner submissions/hrt_winner
 
 # 3. Set up the venv + DREAMPlace extras
 uv sync
